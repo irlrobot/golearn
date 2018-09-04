@@ -54,7 +54,7 @@ See [Go Books](https://github.com/dariubs/GoBooks) for a longer list of books, b
 - [ ] [Effective error handling in Go](https://morsmachine.dk/error-handling)
 - [ ] [Go's Error Handling is Elegant](https://davidnix.io/post/error-handling-in-go/)
 - [ ] [When Should I Use One Liner if...else Statements in Go?](https://www.calhoun.io/one-liner-if-statements-with-errors/)
-- [ ] [Five Suggestions for Setting up a Go project](https://dave.cheney.net/2014/12/01/five-suggestions-for-setting-up-a-go-project)
+- [x] [Five Suggestions for Setting up a Go project](https://dave.cheney.net/2014/12/01/five-suggestions-for-setting-up-a-go-project)
 - [ ] [The One with the Directory Structure and Manual Wiring](https://www.elliotdwright.com/2018/02/27/how-i-structure-some-of-my-projects/)
 - [ ] [Structuring Tests in Go](https://medium.com/@benbjohnson/structuring-tests-in-go-46ddee7a25c)
 - [ ] [Organizing Go Code](https://blog.golang.org/organizing-go-code)
