@@ -9,6 +9,7 @@ Working through [this list](https://github.com/enocom/gopher-reading-list/blob/7
 - [x] [Why should you learn Go?](https://medium.com/@kevalpatel2106/why-should-you-learn-go-f607681fad65)
 - [x] [How to Write Go Code](https://golang.org/doc/code.html)
 - [ ] [A Tour of Go](https://tour.golang.org/welcome/1)
+    - Left off on https://tour.golang.org/flowcontrol/10
 - [ ] [Frequently Asked Questions](https://golang.org/doc/faq)
 - [ ] [Go Koans](https://github.com/cdarwin/go-koans)
 - [ ] [Go by Example](https://gobyexample.com/)
