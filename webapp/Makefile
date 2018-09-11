@@ -13,3 +13,6 @@ push:
  
 login:
 	@docker log -u ${DOCKER_USER} -p ${DOCKER_PASS}
+
+run:
+	@docker run -it --rm -p 8080:8080 irlrobot/leadership
