@@ -18,14 +18,11 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 
 func randomPhrase() string {
-	phrases := []string{
-		"Needs more Bias for Action",
-		"Doesn't sound very Customer Obsessed",
-		"This is a Disagree and Commit moment for me",
-	}
+	// The phrases() function is in phrases.go.
+	phrases := phrases()
 
-	// seed/initialize the psuedo random num generator
+	// Seed/initialize the psuedo random number generator.
 	rand.Seed(time.Now().Unix())
-	// grab a random index from phrases
+	// Return a random phrase.
 	return phrases[rand.Intn(len(phrases))]
 }
