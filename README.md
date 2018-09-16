@@ -1,6 +1,31 @@
 # golearn
 Finally learning golang... I'm fashionably late to the party.
 
+# TODO List
+- [] Create a simple API from scratch
+    - [x] GET
+    - [] PUT
+    - [] POST
+    - [] DELETE
+    - [] Auth on all non-GET endpoints using an API key or other simple method
+- [x] Dockerize the simple API
+- [] Include a Makefile for the simple API
+    - [X] Basic that will build and tag latest
+    - [] More advanced that uses semver
+- [] Learn how to break the code up
+    - [x] Multiple files in same package
+    - [] Multiple packages
+    - [] Find a better organization that isn't totally flat but isn't too complex for the simple project
+- [] Introduce a 3P dependency and learn how to use Modules
+    - [] 3P dependency added to project
+    - [] Use Modules feature introduced in 1.11
+- [] Re-create API using Swagger
+- [] Deploy to AWS Fargate using an ALB
+    - [] Terraform for the infra
+- [] Learn Nomad and use it to schedule/deploy the simple API
+    - [] Setup Nomad
+    - [] Deploy API
+
 # Reading List
 Working through [this list](https://github.com/enocom/gopher-reading-list/blob/7493fa279f9d6bd4295c0319d242d48c143d667f/README.md).
 
